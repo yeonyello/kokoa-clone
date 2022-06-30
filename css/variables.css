@@ -1,7 +1,5 @@
 :root {
     --yellow: #fae100;
-}
-
-:root {
-    --brown: #3c1e1e
+    --brown: #3c1e1e;
+    --horizontal-space: 25px;
 }
