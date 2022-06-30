@@ -3,15 +3,15 @@
 @import "reset.css";
 @import "variables.css";
 
+@import "components/badge.css";
 @import "components/status-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
-@import "components/badge.css";
 @import "components/nav-bar.css";
 
 @import "screens/login.css";
 @import "screens/friends.css";
-@import "screens/chats.css";
+@import "screens/find.css";
 
 
 body{

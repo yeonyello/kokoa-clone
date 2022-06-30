@@ -14,4 +14,13 @@
 
 .screen-header__icons span {
     margin-left: 25px;
+    position: relative;
+}
+
+.screen-header__notification {
+    display: block;
+    width: 5px;
+    height: 5px;
+    right: -5px;
+    top: 0px;
 }
