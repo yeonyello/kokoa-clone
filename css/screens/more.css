@@ -22,6 +22,7 @@
     justify-content: center;
     align-items: center;
     color: var(--gray);
+    width: 25%;
 }
 .more-suggestions__icon img {
     width: 60px;
