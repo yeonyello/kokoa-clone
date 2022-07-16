@@ -12,6 +12,7 @@
 }
 .alt-header__column {
     width: 33%;
+    cursor: pointer;
 }
 .alt-header__column:first-child {
     margin-right: auto;
