@@ -43,6 +43,9 @@
     width: 100%;
     display: flex;
     margin-bottom: 25px;
+    animation: messegeAnimation 1s ease-in-out forwards;
+    transform: translateX(-50px);
+    opacity: 0;
 }
 .message-row img {
     width: 50px;
@@ -55,6 +58,15 @@
     font-size: 15px;
     margin-bottom: 10px;
     display: block;
+}
+@keyframes messegeAnimation {
+    form {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
 .message__info {
     display: flex;
@@ -75,6 +87,9 @@
 
 .message-row__own {
     justify-content: flex-end;
+    transform: translateX(50px);
+    animation-delay: 1s;
+    opacity: 0;
 }
 .message-row__own .message__bubble {
     background-color: var(--yellow);
